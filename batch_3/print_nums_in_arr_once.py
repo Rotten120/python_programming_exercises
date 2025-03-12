@@ -12,6 +12,6 @@ def print_nums_once(arr):
     print(nums_in_arr)
     
 if __name__ == "__main__":
-    arr_inp = get_input.floats_until_invalid()
+    arr_inp = get_input.numbers(10)
     print("List of numbers inputted: ", end = '')
     print_nums_once(arr_inp)

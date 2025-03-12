@@ -16,6 +16,6 @@ def print_non_duped_nums(arr):
     print(non_duped_nums)
 
 if __name__ == "__main__":
-    arr_inp = get_input.floats_until_invalid()
+    arr_inp = get_input.numbers(10)
     print("Numbers with no duplicates: ", end = '')
     print_non_duped_nums(arr_inp)
