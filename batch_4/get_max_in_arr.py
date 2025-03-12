@@ -4,8 +4,8 @@ def max_arr(arr):
     highest_num = arr[0]
     for num in arr:
         if highest_num < num:
-            temp = lowest_num
-            lowest_num = num
+            temp = highest_num
+            highest_num = num
             num = temp
     return highest_num
 
