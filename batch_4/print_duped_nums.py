@@ -1,6 +1,6 @@
 import get_input
 
-def print_non_duped_nums(arr):
+def print_duped_nums(arr):
     nums_in_arr = []
     duped_nums = []
 
@@ -19,4 +19,4 @@ def print_non_duped_nums(arr):
 if __name__ == "__main__":
     arr_inp = get_input.numbers(10)
     print("Numbers with duplicates: ", end = '')
-    print_non_duped_nums(arr_inp)
+    print_duped_nums(arr_inp)
