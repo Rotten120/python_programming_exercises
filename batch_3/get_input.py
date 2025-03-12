@@ -8,6 +8,9 @@ def numbers(arr_size = 2):
             arr_input += inp_num
         except:
             continue
+        
+    if len(arr_input) == 0:
+        return [-1]
     return arr_input
 
 def nums_until_invalid():
@@ -21,4 +24,7 @@ def nums_until_invalid():
             arr_input += inp_num
         except:
             break
+        
+    if len(arr_input) == 0:
+        return [-1]
     return arr_input
