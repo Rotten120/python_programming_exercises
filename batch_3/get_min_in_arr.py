@@ -10,5 +10,5 @@ def min_arr(arr):
     return lowest_num
 
 if __name__ == "__main__":
-    arr_inp = get_input.floats_until_invalid()
+    arr_inp = get_input.nums_until_invalid()
     print("Lowest number is:", min_arr(arr_inp))

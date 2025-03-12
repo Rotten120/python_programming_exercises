@@ -13,6 +13,6 @@ def is_num_unique_or_dupli(arr):
         print(num, num_identifier)
 
 if __name__ == "__main__":
-    arr_inp = get_input.floats_until_invalid()
+    arr_inp = get_input.nums_until_invalid()
     print("\nResults")
     is_num_unique_or_dupli(arr_inp)
